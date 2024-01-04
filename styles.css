@@ -1,0 +1,82 @@
+.title {
+    margin-top: 2%;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px;
+    padding: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+
+
+    /* gap: 200px; */
+
+}
+
+
+.resultstatement {
+    margin: 0px;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.win-or-loss {
+    margin: 0px;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 75px;
+    filter: brightness(46%) saturate(101%) contrast(355%);
+
+    background-color: #fffff100;
+    border: none;
+
+    /* padding: 50px;
+    margin: 25px; */
+    width: 18%;
+    padding: 15px;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-20px);
+}
+
+
+
+.button:hover {
+
+    filter: brightness(100%) saturate(50%) contrast(10%);
+}
+
+.button img {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    background-image: radial-gradient(#919191 1px, transparent 1px), radial-gradient(#919191 1px, transparent 1px);
+    background-size: 23px 23px;
+    background-position: 0 0, 11.5px 11.5px;
+    background-color: #ffffff;
+}
